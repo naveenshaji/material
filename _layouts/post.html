@@ -1,0 +1,20 @@
+---
+ layout: default 
+---
+<div class="post">
+
+    <header class="post-header">
+        <h1 class="post-title">{{ page.title }}</h1>
+        <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    </header>
+
+    <article class="post-content">
+        {{ content }}
+    </article>
+    <br/><hr/><br/>
+    <button class="{{ site.css }} darken-1 white-text text-darken-3 waves-effect waves-cyan waves-light btn" href="/">Share</button>
+    <button class="{{ site.css }} darken-2 white-text text-darken-3 waves-effect waves-cyan waves-light btn" href="/blog/">Back Home</button>
+    <br/>&nbsp;
+    
+
+</div>

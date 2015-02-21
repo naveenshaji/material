@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body class="{{ site.css }} lighten-5">
+ 
+  <div class="preloader {{ site.css }} container-fluid row">
+    <div class="white-text text-darken-4 xpretext"><h4>naveenshaji</h4>
+        </div>
+     <div class="progress {{ site.css }} lighten-2 xpreloading">
+      <div class="indeterminate {{ site.css }} darken-3"></div>
+  </div>
+  
+</div>
+   
+    {% include header.html %}
+    <a class="darken-2 scrollToTop btn-floating btn-large waves-effect waves-light {{ site.css }}"><i class="mdi-action-home"></i></a>
+    <div id="page-wrap">
+        <div id="main-content">
+            <div id="guts">
+                <div class="container">
+                    <div class="wrapper {{ site.css }}-text text-darken-3">
+                        {{ content }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% include footer.html %}
+</body>
+
+</html>
