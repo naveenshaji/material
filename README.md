@@ -1,7 +1,4 @@
-![alt tag](https://raw.github.com/dogfalo/materialize/master/images/materialize.gif)
+#Material
 ===========
 
-Naveen Shaji
-
-Personal Website
-
+Material is a website/blog frontend based on Material Design.
