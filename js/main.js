@@ -78,10 +78,11 @@ function calcScrollr() {
 var s;
 $(function () {
 
-    $("html").niceScroll({
-        scrollspeed: 100,
-        mousescrollstep: 72
-    });
+        $("html").niceScroll({
+			styler: "fb",
+			scrollspeed: 100,
+			mousescrollstep: 72
+        });
 
     $.scrolline({
         reverse: false,
