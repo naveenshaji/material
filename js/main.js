@@ -67,8 +67,6 @@ function calcScrollr() {
         count++;
         
     });
-    $(".page-footer").attr("style", "margin-top: " + (dataval + 800) + "px");
-
 
 }
 
@@ -124,13 +122,14 @@ $(function () {
 
         function loadContent(href) {
             $mainContent.find("#guts").stop(true, true).fadeOut(600, function () { // fade out the content of the current page
+                $(".preloader").fadeIn();
                 $mainContent.hide().load(href + " #guts", function () { // load the contents of whatever href is
                     $('html, body').animate({
                         scrollTop: 0
                     }, 800);
 
 
-                    $mainContent.fadeIn(800, function () {});
+                    $mainContent.fadeIn(1000);
 
 
                     calcScrollr();
@@ -138,14 +137,11 @@ $(function () {
                     s.refresh();
 
                     $('html, body').animate({
-                        scrollTop: 1
-                    }, 1);
-
-                    $pageWrap.velocity({
-                        easing: 'swing',
-                        duration: 100,
-                        height: baseHeight + $mainContent.height() + "px"
+                        scrollTop: 10
+                    }, 50, function(){
+                        $(".preloader").fadeOut();
                     });
+
                 });
             });
         }
@@ -189,8 +185,9 @@ $(window).load(function () {
 
 
     $('html, body').animate({
-        scrollTop: 1
-    }, 800, function () {});
+        scrollTop: 10
+    }, 50);
+
     calcScrollr();
     s = skrollr.init();
 
