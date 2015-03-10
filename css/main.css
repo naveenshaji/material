@@ -281,3 +281,7 @@ nav {
         height: 100px;
     }
 }
+
+.scrollToTop i {
+    font-size: 50px;
+}
