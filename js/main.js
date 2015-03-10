@@ -128,7 +128,7 @@ $(function () {
                         scrollTop: 0
                     }, 800);
 
-
+                    $('ul.tabs').tabs();
                     $mainContent.fadeIn(1000);
 
 
