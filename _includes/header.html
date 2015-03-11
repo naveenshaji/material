@@ -3,13 +3,13 @@
         <nav class="{{ site.css }} darken-2 waves-effect waves-light">
             <div class="nav-wrapper">
                <div class="container">
-                <a internal href="/" class="brand-logo"><i class="mdi-communication-chat"></i> {{site.title}}</a>
+                <a internal href="{{ site.baseurl }}" class="brand-logo"><i class="mdi-communication-chat"></i> {{site.title}}</a>
                 <ul id="nav-mobile" class="right side-nav">
-                    <li><a internal href="/">Docs</a> 
+                    <li><a internal href="{{ site.baseurl }}">Docs</a>
                     </li>
-                    <li><a internal href="/blog/">Blog</a>
+                    <li><a internal href='{{ " /blog/ " | prepend: site.baseurl }}'>Blog</a>
                     </li>
-                    <li><a internal href="/about/">About</a>
+                    <li><a internal href='{{ " /about/ " | prepend: site.baseurl }}'>About</a>
                     </li>
                     <li><a href="http://github.com/naveenshaji/" target="_blank">GitHub</a>
                     </li>
