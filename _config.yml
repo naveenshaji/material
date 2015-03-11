@@ -11,6 +11,7 @@ github_username:  naveenshaji
 css: "cyan"
 scroll-cursor: "#00BCD4"
 scroll-rail: "#0097A7"
+baseurl: "http://naveenshaji.github.io/material"
 
 # Build settings
 markdown: kramdown
