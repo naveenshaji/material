@@ -127,7 +127,7 @@ nav {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /*background-image: url("/img/1.jpg");*/
+    /*background-image: url("{{site.baseurl}}/img/1.jpg");*/
     transition: 0.3s all ease;
     overflow: hidden;
 }

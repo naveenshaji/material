@@ -5,19 +5,19 @@
 
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{{ site.description }}">
-    <meta name="viewport" content="width=device-width, initial-scale=0.7, user-scalable=0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.9, user-scalable=0">
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="/css/materialize.min.css" media="screen,projection" />
-    <link rel="stylesheet" href="{{ " /css/main.css " | prepend: site.baseurl }}">
+    <link type="text/css" rel="stylesheet" href="{{ site.baseurl }}/css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-    <script type="text/javascript" src="/js/jquery.min.js"></script>
-    <script src="/js/jquery.nicescroll.min.js"></script>
-    <script src="/js/jquery.nicescroll.plus.js"></script>
-    <script src="/js/velocity.min.js"></script>
-    <script src="/js/skrollr.min.js"></script>
-    <script src="/js/jquery.scrolline.js"></script>
-    <script type="text/javascript" src="/js/modernizr.js"></script>
-    <script type="text/javascript" src="/js/materialize.min.js"></script>
-    <script type="text/javascript" src="/js/main.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/js/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}/js/jquery.nicescroll.min.js"></script>
+    <script src="{{ site.baseurl }}/js/jquery.nicescroll.plus.js"></script>
+    <script src="{{ site.baseurl }}/js/velocity.min.js"></script>
+    <script src="{{ site.baseurl }}/js/skrollr.min.js"></script>
+    <script src="{{ site.baseurl }}/js/jquery.scrolline.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/js/modernizr.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/js/materialize.min.js"></script>
+    <script type="text/javascript" src="{{ site.baseurl }}/js/main.js"></script>
 </head>
