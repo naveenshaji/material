@@ -2,7 +2,7 @@
 layout: post
 title:  "Material Design ftw!!"
 date:   2015-02-10 23:25:49
-cover: "/img/man77.svg"
+cover: "{{site.baseurl}}/img/man77.svg"
 ---
 #### Google's material design
 
