@@ -26,9 +26,8 @@
 title: material
 email: naveen@pixelblenders.com
 description: > # this means to ignore newlines until "baseurl:"
-  Hello, I'm Naveen, a freelance front-end developer
-  and UI designer. Check out my projects on GitHub
-baseurl: "" # the subpath of your site, e.g. /blog/
+  It's Suici Bala
+baseurl: "/material/" # the subpath of your site, e.g. /blog/
 url: "http://suicsoft.github.io/material" # the base hostname & protocol for your site
 twitter_username: navvenshady
 github_username:  suicsoft
