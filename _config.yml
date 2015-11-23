@@ -38,6 +38,6 @@ scroll-rail: "#0097A7"
 
 # Build settings
 markdown: kramdown
-highlighter: null #pygments
+highlighter: pygments #pygments
 lsi: false
 safe: false
