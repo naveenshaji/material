@@ -23,15 +23,14 @@
 
 
 # Site settings
-title: material
-email: naveen@pixelblenders.com
+title: Ashley Jade
+email: ashleyjadeauthor@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Hello, I'm Naveen, a freelance front-end developer
-  and UI designer. Check out my projects on GitHub
-baseurl: "/material/" # the subpath of your site, e.g. /blog/
-url: "http://naveenshaji.github.io/material" # the base hostname & protocol for your site
-twitter_username: navvenshady
-github_username:  naveenshaji
+  Hello, I'm Ashley Jade, and idie romance writer, my site is being updated right now. Ceck me out on social media while i get this page up and running, Thanks
+baseurl: "/ashley-jade/" # the subpath of your site, e.g. /blog/
+url: "http://mel-dp.github.io/material" # the base hostname & protocol for your site
+twitter_username: ashleyjadeauthor
+github_username:  1
 css: "cyan"
 scroll-cursor: "#00BCD4"
 scroll-rail: "#0097A7"
