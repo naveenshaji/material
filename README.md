@@ -1,5 +1,4 @@
 #Material
-### Work In Progress.
 
 Take a sneak peek [here](http://naveenshaji.github.io/material)
 
